@@ -3,11 +3,16 @@
     margin: 0px;
 }
 
-.menu {
+#menu {
     background-color: blue;
     padding: 40px;
     border-bottom: 5px solid #BFDDF3;
     text-align: center;
+    
+}
+
+.div-icon {
+    display: inline;
 }
 
 h1 {
@@ -22,16 +27,26 @@ li {
 body {
     background-image: url("https://gileduardo.com.br/ifpr/dw/img/background.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a {
     color: white;
     border-right: 2px solid white;
     padding: 5px;
+    text-decoration: none;
 }
 
 i {
     color: white;
     border-left: 2px solid white;
     margin-left: 25px;
+}
+
+a:hover {
+    color: #BFDDF3;
+}
+
+label {
+    margin-left: 10px;
 }
